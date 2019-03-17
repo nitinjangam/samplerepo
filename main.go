@@ -36,7 +36,7 @@ func main() {
 			email:     "njangam169@gmail.com",
 			interests: []string{"nitin", "jangam"},
 		}, 0)
-	var inuser person
+	var inuser interface{}
 	bucket.Get("nitinjangam", &inuser)
 	fmt.Printf("User: %v\n", inuser)
 	newpc := 400706
