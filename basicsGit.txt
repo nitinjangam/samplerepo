@@ -1,0 +1,24 @@
+Git is version control system(VCS) for tracking changes in computer files
+distributed version control
+coordinates work between multiple developers
+who made what changes and when
+revert back at any time
+local and remote repos
+
+concepts of git
+keeps track of code history
+takes snapshot of your files
+you decide when to take a snapshot by making a commit
+you can visit any snapshot at any time
+you can stage files before committing
+
+Basic commands
+$git init		// initialize local git repository
+$git add <file>		// add file(s) to index
+$git status		// check status of working tree
+$git commit		// commit changes in index
+
+$git push		//push to remote repository(local file push to remote)
+$git pull		//pull latest from remote repository
+$git clone		//clone repository into a new directory
+
